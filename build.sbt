@@ -4,9 +4,9 @@ organization := "com.nicta"
 
 name := "scoobi-compatibility-cdh4"
 
-version := "1.0.1"
+version := "1.0.2"
 
-scalaVersion := "2.11.0"
+scalaVersion := "2.10.4"
 
 libraryDependencies ++= Seq("org.apache.hadoop" % "hadoop-client" % "2.0.0-mr1-cdh4.0.1" exclude("asm", "asm"),
                             "org.apache.hadoop" % "hadoop-core"   % "2.0.0-mr1-cdh4.0.1",
