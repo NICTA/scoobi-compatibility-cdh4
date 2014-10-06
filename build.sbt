@@ -8,7 +8,7 @@ version := "1.0.3"
 
 scalaVersion := "2.10.4"
 
-crossScalaVersions := Seq("2.10.4", "2.11.1")
+crossScalaVersions := Seq("2.10.4", "2.11.2")
 
 libraryDependencies ++= Seq("org.apache.hadoop" % "hadoop-client" % "2.0.0-mr1-cdh4.0.1" exclude("asm", "asm"),
                             "org.apache.hadoop" % "hadoop-core"   % "2.0.0-mr1-cdh4.0.1",
